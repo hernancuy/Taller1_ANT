@@ -1,6 +1,7 @@
 # 0001.Estilo de arquitectura - Event Driven
 
-* Status: proposed
+* Status: accepted
+* Deciders: Hernan Cuy
 * Date: 2023-06-18
 
 Technical Story: 0001.Estilo de arquitectura - Event Driven

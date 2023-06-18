@@ -1,6 +1,7 @@
 # 0002.Estilo de arquitectura - Orientada a servicios
 
-* Status: proposed
+* Status: rejected
+* Deciders: Hernan Cuy
 * Date: 2023-06-18
 
 Technical Story: 0002.Estilo de arquitectura - Orientada a servicios
