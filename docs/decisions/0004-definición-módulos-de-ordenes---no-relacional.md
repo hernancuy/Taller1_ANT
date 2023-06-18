@@ -1,6 +1,7 @@
 # Definición módulos de ordenes - No Relacional
 
-* Status: proposed
+* Status: rejected
+* Deciders: Hernan Cuy
 * Date: 2023-06-18
 
 Technical Story: Módulo de ordenes
