@@ -1,7 +1,7 @@
 # Definición módulos de ordenes - No Relacional
 
-* Status: rejected
-* Deciders: Hernan Cuy
+* Status: accepted
+* Deciders: Julián Misnaza
 * Date: 2023-06-18
 
 Technical Story: Módulo de ordenes
@@ -12,7 +12,7 @@ RF-2 Módulo de ordenes de trabajo.
 Se debe disponer de un módulo gestor de órdenes de trabajo donde se especifiquen las asignaciones de órdenes por operario y máquinas que van a fabricar cada componente, Cabe resaltar que al cambiar el estado de una orden el operario que se encargará de ella será asignado de acuerdo con la disponibilidad
 
 Este módulo de ordenes requiere: 
-TablaOrden
+ColecciónOrden
 IdOrden
 DescripciónOrden
 FechaCreacionOrden
@@ -21,15 +21,15 @@ EstadoOrden
 FechaInicioProduccion
 FechaDespacho
 
-TablaOrdenProducto
+ColecciónOrdenProducto
 IdOrden
 IdProducto
 
-TablaProductosMaterial
+ColecciónProductosMaterial
 idProducto
 idMateriales
 
-TablaMateriales
+ColecciónMateriales
 IdMaterial
 DescripcionMaterial
 CantidadMaterialInventario
@@ -41,22 +41,13 @@ CantidadMaterialInventario
 
 ## Considered Options
 
-* Crear tablas relacionales: Orden, OrdenProducto, ProductosMaterial, Materiales
 * Crear colecciones (no relacionales): Orden, OrdenProducto, ProductosMaterial, Materiales
 
 ## Decision Outcome
 
-Chosen option: "Crear tablas relacionales: Orden, OrdenProducto, ProductosMaterial, Materiales", because Las bases relacionales tienen mejor consistencia de datos
+Chosen option: "Crear tablas relacionales: Orden, OrdenProducto, ProductosMaterial, Materiales", because Las bases de datos no relacionales tienen un mejor rendimiento con altos volumenes de datos.
 
 ## Pros and Cons of the Options
-
-### Crear tablas relacionales: Orden, OrdenProducto, ProductosMaterial, Materiales
-
-Se solicita la creacion de tablas relacionales Orden, OrdenProducto, ProductosMaterial, Materiales
-
-* Good, because Las bases relacionales tienen mejor consistencia de datos
-* Good, because El móduilo de ordenes consiste en informacion estructurada
-* Bad, because Menos eficiencia que las bases de datos no relacionales
 
 ### Crear colecciones (no relacionales): Orden, OrdenProducto, ProductosMaterial, Materiales
 
