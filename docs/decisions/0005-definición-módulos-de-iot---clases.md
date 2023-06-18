@@ -1,6 +1,7 @@
 # Definición módulos de IoT - Clases
 
-* Status: proposed
+* Status: accepted
+* Deciders: Hernan Cuy
 * Date: 2023-06-18
 
 Technical Story: Definición módulos de IoT
