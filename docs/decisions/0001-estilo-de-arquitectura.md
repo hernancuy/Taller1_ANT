@@ -1,4 +1,3 @@
-# Estilo de Arquitectura
 
 * Status: proposed
 * Date: 2023-06-18
@@ -45,4 +44,13 @@ Rest or restful (representational state transfer) es utilizado en para acceso a 
 
 ## Links
 
-* https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html
+* https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html# Estilo de Arquitectura
+
+* Status: proposed
+* Date: 2023-06-18
+
+Technical Story: RF-1.  Visualizador del estado del proceso
+
+## Decision Outcome
+
+Chosen option: ""
