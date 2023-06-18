@@ -1,4 +1,4 @@
-# 0001.Decision del estilo de arquitectura
+# Estilo de Arquitectura
 
 * Status: proposed
 * Date: 2023-06-18
