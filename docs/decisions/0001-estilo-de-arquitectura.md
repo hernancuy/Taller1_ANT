@@ -1,16 +1,11 @@
 # 0001.Estilo de arquitectura - Event Driven
 
-* Status: accepted
-* Deciders: Hernan Cuy
+* Status: proposed
 * Date: 2023-06-18
 
 Technical Story: 0001.Estilo de arquitectura - Event Driven
 
 ## Context and Problem Statement
-
-RF-1.  Visualizador del estado del proceso
-RF-3.  Sistema de monitoreo
-RF-7.  Sistema de mensajería de suscripción
 
 En la definicion vemos la necesidad de un sistema centralizado capaz de tomar los eventos enviados por los sensores de las máquinas y otros sistemas suscritos que los lean y tomen acción, algunos suscriptores toman la informacion para realizar la analitica de los procesos, otros para determinar en tiempo real el estado de la linea de producción y visualizarlos.
 
