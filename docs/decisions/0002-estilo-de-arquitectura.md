@@ -3,10 +3,7 @@
 * Status: proposed
 * Date: 2023-06-18
 
-Technical Story: 
-RF-1.  Visualizador del estado del proceso
-RF-3.  Sistema de monitoreo
-RF-7.  Sistema de mensajería de suscripción
+Technical Story: 0002.Estilo de arquitectura - Orientada a servicios
 
 ## Context and Problem Statement
 

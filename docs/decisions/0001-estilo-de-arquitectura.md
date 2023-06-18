@@ -1,7 +1,9 @@
-# Estilo de Arquitectura - EventDriven
+# 0001.Estilo de arquitectura - Event Driven
 
 * Status: proposed
 * Date: 2023-06-18
+
+Technical Story: 0001.Estilo de arquitectura - Event Driven
 
 ## Context and Problem Statement
 
