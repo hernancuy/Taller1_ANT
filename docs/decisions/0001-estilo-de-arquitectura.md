@@ -1,4 +1,4 @@
-# Estilo de Arquitectura - Event Driven
+# Estilo de Arquitectura
 
 * Status: proposed
 * Date: 2023-06-18
