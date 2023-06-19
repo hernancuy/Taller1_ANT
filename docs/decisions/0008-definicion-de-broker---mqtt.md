@@ -21,7 +21,7 @@ Se hace necesario definir un Broker que sea capaz de gestionar la mensajería de
 
 ## Decision Outcome
 
-Chosen option: "Kaftka", because Tiene baja latencia en la entrega de mensajes, ai bien requiere una curva de aprendizaje, contamos con desarrolladores capacitados en esta tecnología.
+Chosen option: "Kaftka", because Tiene baja latencia en la entrega de mensajes, si bien requiere una curva de aprendizaje, contamos con desarrolladores capacitados en esta tecnología.
 
 ## Pros and Cons of the Options
 
