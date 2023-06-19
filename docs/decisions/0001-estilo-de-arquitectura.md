@@ -15,7 +15,6 @@ En la definicion vemos la necesidad de un sistema centralizado capaz de tomar lo
 * RF-1 Visualizador del estado del proceso.
 * RF-7 Sistema de mensajería de suscripción.
 * RF-9 Software de mensajería
-* Por la naturaleza de comunicacion de los sensores IoT
 * Por el volumen de informacion que tiene el sistema, solo alguna de ellas es de interés por sistemas especificos
 * Por que se requiere un sistema realtime que atienda los eventos que se generan desde los sensores
 
@@ -26,7 +25,7 @@ En la definicion vemos la necesidad de un sistema centralizado capaz de tomar lo
 
 ## Decision Outcome
 
-Chosen option: "Sistema Event Driven", because Por que modela con mayor precision los requisitos del sistema
+Chosen option: "Sistema Event Driven", because Por que modela con mayor precision los requisitos del sistema, por la naturaleza asincrona de comunicacion de los sensores IoT que funcionan por eventos y por el alto volumen de informacion que tiene un sistema de factoria Inteligente 4.0 en la cual solo alguna es de interés por ciertos sistemas especificos que podrian suscribirse a la misma y procesarlos.
 
 ## Pros and Cons of the Options
 
