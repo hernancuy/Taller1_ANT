@@ -1,6 +1,7 @@
 # Módulo de notificaciones
 
-* Status: proposed
+* Status: accepted
+* Deciders: Hernan Cuy
 * Date: 2023-06-18
 
 ## Context and Problem Statement

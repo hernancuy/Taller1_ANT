@@ -1,6 +1,7 @@
 # Definicion de Broker - MQTT
 
-* Status: proposed
+* Status: rejected
+* Deciders: Hernan Cuy
 * Date: 2023-06-19
 
 Technical Story: Definición de broker de mensajería
