@@ -14,6 +14,10 @@ RF-7 El sistema de la fábrica 4.0 debe contar con un sistema de mensajería int
 
 -	Manejo de dispositivos con fallas: Si el número de intentos de conexión con un dispositivo que falla supera un umbral predefinido, se deben suspender los intentos de conexión y considerar al dispositivo como fuera de servicio. Esto implica que el sistema debe monitorear los intentos de conexión y tomar la decisión de suspenderlos de manera automática cuando se supere el umbral establecido.
 
+## Decision Drivers
+
+* RF-7 Sistema de mensajería de suscripción
+
 ## Considered Options
 
 * Se debe contar con un componente de notificaciones que permita mantener a los usuarios al tanto de los sucesos de importancia ocurridos dentro de la plataforma.
