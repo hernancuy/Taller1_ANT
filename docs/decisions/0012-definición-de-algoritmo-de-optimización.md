@@ -1,6 +1,7 @@
 # Definición de algoritmo de optimización
 
-* Status: proposed
+* Status: accepted
+* Deciders: Hernan Cuy
 * Date: 2023-06-19
 
 Technical Story: Definición de algoritmo de optimización
