@@ -21,7 +21,7 @@ Se hace necesario definir un Broker que sea capaz de gestionar la mensajería de
 
 ## Decision Outcome
 
-Chosen option: "Kaftka", because Tiene baja latencia en la entrega de mensajes, ai bien requiere una curva de aprendizaje, contamos con desarrolladores capacitados en esta tecnología.
+Chosen option: "Kaftka", because Tiene baja latencia en la entrega de mensajes, si bien requiere una curva de aprendizaje, contamos con desarrolladores capacitados en esta tecnología.
 
 ## Pros and Cons of the Options
 
@@ -30,9 +30,9 @@ Chosen option: "Kaftka", because Tiene baja latencia en la entrega de mensajes, 
 Es el sistema de back-end que coordina los mensajes entre los diferentes clientes  Las responsabilidades del agente incluyen recibir y filtrar mensajes, identificar a los clientes suscritos a cada mensaje y enviarles los mensajes.
 
 * Good, because Es liviano, requiere un mínimo ancho de banda en la trasmision de datos
-* Good, because Se requiere poco espacio de memoria RAM para operar
-* Good, because Amplia comunidad de usuarios
-* Good, because Una Biblioteca con amplia gamma de opciones
+* Good, because Es eficiente, Se requiere poco espacio de memoria RAM para operar
+* Good, because Tiene una amplia comunidad de usuarios
+* Good, because Dispone de una biblioteca con amplia gamma de opciones
 * Good, because Permite la conexion persistentes entre los clientes y el broker, facilitando la comunicacion continua
 * Bad, because Tiene dificultades para escalarse con grandes volumenes de datos
 * Bad, because No proporciona retención a largo plazo de los mensajes
