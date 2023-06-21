@@ -63,5 +63,5 @@ Se solicita la creacion de tablas relacionales Orden, OrdenProducto, ProductosMa
 Se solicita la creacion de colecciones Orden, OrdenProducto, ProductosMaterial, Materiales
 
 * Good, because Por la naturaleza de los datos
-* Good, because Por que la base de datos del procesamiento es informacion no relacional
+* Good, because Por que la base de datos del procesamiento de eventos es informacion no relacional
 * Bad, because Las bases relacionales tienen mejor consistencia de datos
