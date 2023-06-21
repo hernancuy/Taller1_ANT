@@ -1,6 +1,6 @@
 # Definición módulos de ordenes - No Relacional
 
-* Status: accepted
+* Status: rejected
 * Deciders: Julián Misnaza
 * Date: 2023-06-18
 
