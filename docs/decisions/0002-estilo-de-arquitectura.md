@@ -8,16 +8,15 @@ Technical Story: 0002.Estilo de arquitectura - Orientada a servicios
 
 ## Context and Problem Statement
 
-En la definicion vemos la necesidad de un sistema centralizado capaz de tomar los eventos enviados por los sensores de las máquinas y otros sistemas suscritos que los lean y tomen acción, algunos suscriptores toman la informacion para realizar la analitica de los procesos, otros para determinar en tiempo real el estado de la linea de producción y visualizarlos.
+En la definicion vemos la necesidad de un sistema centralizado capaz de capturar los eventos enviados por los sensores de las distintas máquinas y publicarlos a otros sistemas suscritos capaces de procesar los eventos en tiempo real, para efectos de monitorización o análisis, generando así insights que posteriormente serían presentados en diferentes dashboards para toma de decisiones y análisis del proceso productivo
 
 ## Decision Drivers
 
 * RF-1 Visualizador del estado del proceso.
 * RF-7 Sistema de mensajería de suscripción.
 * RF-9 Software de mensajería
-* Por la naturaleza de comunicacion de los sensores IoT
-* Por el volumen de informacion que tiene el sistema, solo alguna de ellas es de interés por sistemas especificos
-* Por que se requiere un sistema realtime que atienda los eventos que se generan desde los sensores
+* Naturaleza de comunicacion de los sensores IoT
+* Volumen de informacion que tiene el sistema, solo alguna de ellas es de interés por sistemas especificos
 
 ## Considered Options
 
@@ -42,9 +41,10 @@ Las arquitecturas dirigidas por eventos (eda event-driven architectures) se basa
 
 Rest or restful (representational state transfer) es utilizado en para acceso a servicios web y desarrollo web, es una arquitectura cliente-servidor sin estado (stateless), proporciona una interfaz uniforme
 
-* Good, because Es lo más usado en la web por tanto existe muchos ingenieros capacitados en el uso de este patrón
+* Good, because Es lo más usado en la web por tanto existe mucho capital humano capacitado en el uso de este patrón
 * Bad, because No modela correctamente la menera como los sensores interactuan con un sistema de informacion
 
 ## Links
 
-* https://statics.teams.cdn.office.net/evergreen-assets/safelinks/1/atp-safelinks.html
+* https://www.redhat.com/es/topics/integration/what-is-event-driven-architecture
+* https://www.bbvanexttechnologies.com/blogs/que-es-una-arquitectura-event-driven/
