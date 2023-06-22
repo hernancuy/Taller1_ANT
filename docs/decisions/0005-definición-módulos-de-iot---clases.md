@@ -34,8 +34,17 @@ esAnidado
 
 ## Considered Options
 
-* Crear las tablas: ObjetoSensor, ObjetotipoSensor
+* Utilizar patrón de arquitectura Chain of responsability
 
 ## Decision Outcome
 
-Chosen option: "Crear las tablas: ObjetoSensor, ObjetotipoSensor", because Modela correctamente los requisitos de software
+Chosen option: "Utilizar patrón de arquitectura Chain of responsability", because Modela correctamente los requisitos de software descritos
+
+## Pros and Cons of the Options
+
+### Utilizar patrón de arquitectura Chain of responsability
+
+Porque el patron change of responsability permite pasar solicitudes a lo largo de una cadena de controladores y al recibir la solicitud, cada controlador decide procesarla o pasarla al siguiente controlador de la cadena y ese es el comportamiento necesario para modelar los contraladores Tipo A
+
+* Good, because Cada controlador puede decidir no pasar la solicitud más abajo en la cadena y detener el procesamiento posterior del mensaje.
+* Bad, because Algunas solicitudes pueden terminar sin ser atendidas.
